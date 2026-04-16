@@ -20,8 +20,4 @@ jobs:
         aws-region: us-east-1
 
     - name: Deploy static site to S3 bucket
-<<<<<<< HEAD
       run: aws s3 sync . s3://github-action-portfolio-bijaya --delete
-=======
-      run: aws s3 sync . s3://tws-junoon --delete
->>>>>>> 4a9661d6f21d02314e1f8b686e67a233c63285b4

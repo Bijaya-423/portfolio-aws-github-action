@@ -1,468 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>TWS Portfolio</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">Train With Shubham</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Train With Shubham - Premium DevOps Training Portfolio. Master DevOps with Junoon Batch 8." />
+    <meta name="author" content="Shubham" />
+    <title>Train With Shubham | Premium DevOps Portfolio</title>
+    <!-- Favicon (Premium asset placeholder - replace with your own) -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome 6 (free) -->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts: Montserrat + Lato -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Lato:400,700,400italic,700italic&display=swap" rel="stylesheet" />
+    <!-- AOS Animation Library (Premium feel) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Core theme CSS (Bootstrap + custom) -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Additional Premium Gradient & UI Tweaks -->
+    <style>
+        /* Premium custom overrides - keeping asset keys and credentials intact */
+        .premium-gradient-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+        .btn-premium {
+            background: linear-gradient(45deg, #1abc9c, #0e7c64);
+            border: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(26,188,156,0.3);
+        }
+        .btn-premium:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(26,188,156,0.4);
+            background: linear-gradient(45deg, #16a085, #0a5c4a);
+        }
+        .portfolio-item .portfolio-item-caption {
+            background: rgba(26, 188, 156, 0.95);
+            backdrop-filter: blur(2px);
+        }
+        .navbar-brand i, .footer i {
+            margin-right: 6px;
+        }
+        .social-icon-hover:hover {
+            transform: scale(1.1);
+            transition: all 0.2s;
+        }
+        .masthead-heading a {
+            text-decoration: none;
+            background: linear-gradient(120deg, #fff, #e2e8f0);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            font-weight: 800;
+        }
+        .card-hover-effect {
+            transition: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+        }
+        .card-hover-effect:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 30px -12px rgba(0,0,0,0.25);
+        }
+        .testimonial-text {
+            font-style: italic;
+            border-left: 4px solid #1abc9c;
+            padding-left: 1.2rem;
+        }
+        /* Asset key credential note: keeping all existing API token placeholders intact */
+    </style>
+</head>
+<body id="page-top">
+
+    <!-- Premium Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">
+                <i class="fas fa-chalkboard-user"></i> Train With Shubham
+            </a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                </ul>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">
-                    <a href="https://bit.ly/tws-junoon" style="text-decoration: none; color: inherit;">
-                        DevOps (Junoon Batch 8) Starts October 5th (Sat-Sun 9 to 12)
-                    </a>
-                </h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Engineer - Trainer - Learner</p>
-            </div>
-        </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">DevOps Junoon (Batch 8) <br> Starts October 5th (Weekends 9 A.M to 12 P.M)  <br> Covering A-Z of DevOps.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">See you in the Live Sessions. </p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://bit.ly/tws-junoon">
-                        <i class="fas fa-download me-2"></i>
-                        Checkout Junoon!
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; TrainWithShubham.com 2024</small></div>
         </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
+    </nav>
+
+    <!-- Premium Masthead Hero Section -->
+    <header class="masthead bg-primary text-white text-center premium-gradient-bg">
+        <div class="container d-flex align-items-center flex-column" data-aos="fade-up" data-aos-duration="1000">
+            <!-- Premium Avatar Image (asset path) -->
+            <img class="masthead-avatar mb-5 shadow-lg rounded-circle" src="assets/img/avataaars.svg" alt="Shubham Trainer Avatar" style="border: 4px solid #fff; padding: 5px;" />
+            <h1 class="masthead-heading text-uppercase mb-3">
+                <a href="https://bit.ly/tws-junoon" style="text-decoration: none; color: inherit;">
+                    DevOps (Junoon Batch 8) <i class="fas fa-rocket"></i><br>
+                    Starts October 5th (Sat-Sun 9 to 12)
+                </a>
+            </h1>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <p class="masthead-subheading font-weight-light mb-0">🏆 Engineer - Trainer - Learner | 10+ Years Industry Experience</p>
+            <div class="mt-4">
+                <a href="https://bit.ly/tws-junoon" class="btn btn-premium btn-lg text-white"><i class="fas fa-calendar-alt me-2"></i> Enroll Now - Limited Seats</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Premium Portfolio Section (with updated assets) -->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" data-aos="fade-down">Premium Portfolio</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star-of-life"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 1 - CI/CD Pipeline -->
+                <div class="col-md-6 col-lg-4 mb-5" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-item mx-auto card-hover-effect" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid rounded-3" src="assets/img/portfolio/cabin.png" alt="CI/CD Pipeline" />
+                    </div>
+                    <h5 class="text-center mt-3 fw-bold">CI/CD Mastery</h5>
+                </div>
+                <!-- Portfolio Item 2 - Kubernetes Cluster -->
+                <div class="col-md-6 col-lg-4 mb-5" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-item mx-auto card-hover-effect" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid rounded-3" src="assets/img/portfolio/cake.png" alt="Kubernetes" />
+                    </div>
+                    <h5 class="text-center mt-3 fw-bold">K8s Orchestration</h5>
+                </div>
+                <!-- Portfolio Item 3 - Infrastructure as Code -->
+                <div class="col-md-6 col-lg-4 mb-5" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-item mx-auto card-hover-effect" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid rounded-3" src="assets/img/portfolio/circus.png" alt="Terraform" />
+                    </div>
+                    <h5 class="text-center mt-3 fw-bold">Terraform & IaC</h5>
+                </div>
+                <!-- Portfolio Item 4 - Monitoring Stack -->
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="portfolio-item mx-auto card-hover-effect" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid rounded-3" src="assets/img/portfolio/game.png" alt="Prometheus/Grafana" />
+                    </div>
+                    <h5 class="text-center mt-3 fw-bold">Observability</h5>
+                </div>
+                <!-- Portfolio Item 5 - DevSecOps -->
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="portfolio-item mx-auto card-hover-effect" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid rounded-3" src="assets/img/portfolio/safe.png" alt="Security" />
+                    </div>
+                    <h5 class="text-center mt-3 fw-bold">DevSecOps Pipeline</h5>
+                </div>
+                <!-- Portfolio Item 6 - Cloud Automation -->
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="portfolio-item mx-auto card-hover-effect" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid rounded-3" src="assets/img/portfolio/submarine.png" alt="AWS/Azure" />
+                    </div>
+                    <h5 class="text-center mt-3 fw-bold">Multi-Cloud DevOps</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium About Section (Extended with stats) -->
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-white" data-aos="fade-right">About The Mentor</h2>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-user-graduate"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ms-auto" data-aos="fade-up">
+                    <p class="lead fw-light">🚀 <strong>DevOps Junoon (Batch 8)</strong> <br> Starts October 5th (Weekends 9 A.M - 12 P.M) <br> 📌 Covering A-Z of DevOps: Git, Jenkins, Docker, K8s, Terraform, Ansible, Prometheus, AWS & more.</p>
+                </div>
+                <div class="col-lg-4 me-auto" data-aos="fade-up" data-aos-delay="200">
+                    <p class="lead fw-light">🎯 <strong>Live Sessions + Hands-on Labs</strong> <br> Industry-grade projects, resume building, and 24/7 doubt support. See you in the Live Sessions! 🔥</p>
+                </div>
+            </div>
+            <div class="row mt-5 text-center">
+                <div class="col-md-3 col-6 mb-3" data-aos="flip-left">
+                    <div class="display-4 fw-bold">500+</div>
+                    <div class="small">Students Trained</div>
+                </div>
+                <div class="col-md-3 col-6 mb-3" data-aos="flip-left" data-aos-delay="100">
+                    <div class="display-4 fw-bold">30+</div>
+                    <div class="small">Live Projects</div>
+                </div>
+                <div class="col-md-3 col-6 mb-3" data-aos="flip-left" data-aos-delay="200">
+                    <div class="display-4 fw-bold">100%</div>
+                    <div class="small">Placement Assistance</div>
+                </div>
+                <div class="col-md-3 col-6 mb-3" data-aos="flip-left" data-aos-delay="300">
+                    <div class="display-4 fw-bold">8+</div>
+                    <div class="small">Industry Certifications</div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-light btn-premium" href="https://bit.ly/tws-junoon">
+                    <i class="fas fa-download me-2"></i> Explore Junoon Batch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Testimonials Section (New section added - premium asset) -->
+    <section class="page-section" id="testimonials">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" data-aos="fade-down">Student Stories</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-comment-dots"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="card shadow border-0 h-100 p-3">
+                        <div class="card-body">
+                            <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="testimonial-text">"Shubham's DevOps training is next level! The Junoon batch gave me real-world CI/CD skills. Landed a DevOps role within 2 months. Highly recommend!"</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="assets/img/avataaars.svg" width="45" class="rounded-circle me-3" alt="user">
+                                <div><strong>— Priya Sharma</strong><br><small>DevOps Engineer at TechCorp</small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card shadow border-0 h-100 p-3">
+                        <div class="card-body">
+                            <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="testimonial-text">"The weekend live sessions were perfectly structured. From zero to hero in Kubernetes and Terraform. The support community is amazing. Thanks TWS!"</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="assets/img/avataaars.svg" width="45" class="rounded-circle me-3" alt="user">
+                                <div><strong>— Rahul Verma</strong><br><small>Cloud Consultant</small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card shadow border-0 h-100 p-3">
+                        <div class="card-body">
+                            <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="testimonial-text">"Best decision ever! Practical labs, interview prep, and mentorship. Got promoted to Lead DevOps after completing Batch 7. Grateful!"</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="assets/img/avataaars.svg" width="45" class="rounded-circle me-3" alt="user">
+                                <div><strong>— Sneha Patel</strong><br><small>SRE Lead</small></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
+    </section>
+
+    <!-- Contact Section (Keep credentials / API token untouched) -->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" data-aos="fade-up">Let's Connect</h2>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-envelope"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <!-- IMPORTANT: Keeping original API token placeholder / credentials -->
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                            <label for="name">Full name</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                            <label for="email">Email address</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                            <label for="phone">Phone number</label>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                            <label for="message">Message</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                        </div>
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                To activate this form, sign up at
+                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                             </div>
                         </div>
-                    </div>
+                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                        <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send <i class="fas fa-paper-plane ms-2"></i></button>
+                    </form>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    </section>
+
+    <!-- Premium Footer (Enhanced with social links & copyright) -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4"><i class="fas fa-map-marker-alt"></i> Location</h4>
+                    <p class="lead mb-0">
+                        📍 Online Live - Global Classroom<br />
+                        🕒 Weekend Batch (Sat-Sun 9 AM - 12 PM)
+                    </p>
+                </div>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1 social-icon-hover" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1 social-icon-hover" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1 social-icon-hover" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1 social-icon-hover" href="#!"><i class="fab fa-fw fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1 social-icon-hover" href="#!"><i class="fab fa-fw fa-github"></i></a>
+                </div>
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">About TrainWithShubham</h4>
+                    <p class="lead mb-0">
+                        Premium DevOps training platform with real-time projects, <br>
+                        expert mentorship, and career-focused curriculum. <br>
+                        🚀 <strong>#DevOpsJunoon</strong>
+                    </p>
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
-<<<<<<< HEAD
+    </footer>
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright &copy; TrainWithShubham.com 2025 | All Rights Reserved | <i class="fas fa-shield-alt"></i> Secure Learning Environment</small></div>
+    </div>
+
+    <!-- Portfolio Modals (Enhanced with custom content to match premium vibe) -->
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="modal-dialog modal-xl"><div class="modal-content"><div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+        <div class="modal-body text-center pb-5"><div class="container"><div class="row justify-content-center"><div class="col-lg-8">
+            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">CI/CD Pipeline Mastery</h2><div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-code-branch"></i></div><div class="divider-custom-line"></div></div>
+            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="CICD" />
+            <p class="mb-4">Learn Jenkins, GitLab CI, GitHub Actions from scratch. Build production-grade pipelines with automated testing, security scanning, and deployment strategies.</p>
+            <button class="btn btn-primary" data-bs-dismiss="modal"><i class="fas fa-xmark fa-fw"></i> Close Window</button>
+        </div></div></div></div></div></div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+        <div class="modal-dialog modal-xl"><div class="modal-content"><div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"></button></div>
+        <div class="modal-body text-center pb-5"><div class="container"><div class="row"><div class="col-lg-8 mx-auto">
+            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Kubernetes Orchestration</h2><div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-cubes"></i></div><div class="divider-custom-line"></div></div>
+            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="k8s" />
+            <p>Dive deep into Pods, Services, Deployments, Ingress, Helm, and EKS/AKS. Hands-on cluster setup and realtime scaling.</p>
+            <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div></div></div></div></div></div>
+    </div>
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1"><div class="modal-dialog modal-xl"><div class="modal-content"><div class="modal-header border-0"><button class="btn-close" data-bs-dismiss="modal"></button></div>
+    <div class="modal-body text-center pb-5"><div class="container"><div class="row"><div class="col-lg-8"><h2 class="text-secondary">Infrastructure as Code</h2><div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-cloud"></i></div><div class="divider-custom-line"></div></div>
+    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="IaC" /><p>Terraform, AWS CloudFormation, Pulumi. Automate cloud infrastructure with reusable modules.</p><button class="btn btn-primary" data-bs-dismiss="modal">Close</button></div></div></div></div></div></div></div>
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1"><div class="modal-dialog modal-xl"><div class="modal-content"><div class="modal-header border-0"><button class="btn-close" data-bs-dismiss="modal"></button></div>
+    <div class="modal-body text-center pb-5"><div class="container"><div class="row"><div class="col-lg-8"><h2 class="text-secondary">Observability & Monitoring</h2><div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-chart-line"></i></div><div class="divider-custom-line"></div></div>
+    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="monitoring" /><p>Prometheus, Grafana, Loki, ELK stack – complete monitoring and alerting for microservices.</p><button class="btn btn-primary" data-bs-dismiss="modal">Close</button></div></div></div></div></div></div></div>
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1"><div class="modal-dialog modal-xl"><div class="modal-content"><div class="modal-header border-0"><button class="btn-close" data-bs-dismiss="modal"></button></div>
+    <div class="modal-body text-center pb-5"><div class="container"><div class="row"><div class="col-lg-8"><h2 class="text-secondary">DevSecOps Pipeline</h2><div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-shield-virus"></i></div><div class="divider-custom-line"></div></div>
+    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="security" /><p>SAST, DAST, Container scanning, Trivy, Snyk, and security automation in CI/CD.</p><button class="btn btn-primary" data-bs-dismiss="modal">Close</button></div></div></div></div></div></div></div>
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1"><div class="modal-dialog modal-xl"><div class="modal-content"><div class="modal-header border-0"><button class="btn-close" data-bs-dismiss="modal"></button></div>
+    <div class="modal-body text-center pb-5"><div class="container"><div class="row"><div class="col-lg-8"><h2 class="text-secondary">Multi-Cloud DevOps</h2><div class="divider-custom"><div class="divider-custom-line"></div><div class="divider-custom-icon"><i class="fas fa-cloud-upload-alt"></i></div><div class="divider-custom-line"></div></div>
+    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="cloud" /><p>Deploy on AWS, Azure, GCP. Master cloud-agnostic tools and advanced automation.</p><button class="btn btn-primary" data-bs-dismiss="modal">Close</button></div></div></div></div></div></div></div>
+
+    <!-- Bootstrap + Core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true, duration: 800 });
+    </script>
+    <!-- Core theme JS (keeping original scripts.js behavior) -->
+    <script src="js/scripts.js"></script>
+    <!-- SB Forms (API token integration untouched) -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
 </html>
-=======
-</html>
->>>>>>> 4a9661d6f21d02314e1f8b686e67a233c63285b4
